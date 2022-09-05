@@ -598,11 +598,11 @@ header .social a:hover {
         display: none;
     }
 
-    .section-container{
+    /* .section-container{
         display: flex;
         flex-direction: column;
         gap: 20rem;
-    }
+    } */
 
 }
 
@@ -659,6 +659,9 @@ header .social a:hover {
     }
 
     video {
+        display: none;
+    }
+    .about .about-wraper .col-2{
         display: none;
     }
 
