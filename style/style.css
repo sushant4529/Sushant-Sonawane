@@ -618,7 +618,7 @@ video{
 
     
 }
-@media (max-width:279px) {
+@media (max-width:300px) {
     .about {
         margin-bottom: 13rem;
     }
