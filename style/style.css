@@ -10,15 +10,13 @@
 }
 
 :root {
-    --main-color: #ffff00;
+    --main-color: #00ff2a;
     --white-color: #ffffff;
     --black-color: #000000;
     --shadow-color: #aaaaaa;
     /* --heaing-color: #2b00ff; */
 
-    --glassbackground: rgba(255, 255, 255, 0.01);
-    --glass-backdrop-filter: blur(5px);
-    /* backdrop also for webkit */
+    
 }
 
 html {
@@ -35,14 +33,14 @@ body {
 
 .heading {
     font-size: 4rem;
-    color: var(--white-color);
+    color: var(--black-color);
     font-weight: bolder;
 }
 
 
 header {
     /* border: 1px solid red; */
-    /* background: #222; */
+    background: #222;
     position: fixed;
     top: 0;
     left: 0;
@@ -56,12 +54,7 @@ header {
     justify-content: space-between;
     z-index: 1000;
 
-    background: rgba(0, 0, 0, 0.45);
-    /*border-radius: 15px;*/
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6.7px);
-    -webkit-backdrop-filter: blur(6.7px);
-    border: 1px solid rgba(255, 255, 255, 0.21);
+    
 }
 
 .header-top {
@@ -138,29 +131,19 @@ header .social a:hover {
     justify-content: center;
     align-items: center;
 
-    background: var(--glassbackground);
-    /*border-radius: 15px;*/
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: var(--glass-backdrop-filter);
-    -webkit-backdrop-filter: var(--glass-backdrop-filter);
-    border: 1px solid rgba(255, 255, 255, 0.21);
+   
 
 }
 
 .home .home-wraper {
-    /* border: 1px solid rgb(0, 0, 0); */
+    border: 1px solid rgb(0, 0, 0);
     height: 35rem;
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 
-    background: rgba(0, 0, 0, 0.45);
-    border-radius: 15px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6.7px);
-    -webkit-backdrop-filter: blur(6.7px);
-    border: 1px solid rgba(255, 255, 255, 0.21);
+    
 }
 
 .home .home-wraper .home-title {
@@ -169,7 +152,7 @@ header .social a:hover {
     font-size: 3rem;
     text-transform: uppercase;
     font-weight: bold;
-    color: var(--white-color);
+    color: var(--black-color);
 
 }
 
@@ -190,201 +173,7 @@ header .social a:hover {
 .auto-type {
     text-transform: capitalize;
     font-weight: bold;
-    color: var(--white-color);
-}
-
-.about {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    background: var(--glassbackground);
-    /*border-radius: 15px;*/
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: var(--glass-backdrop-filter);
-    -webkit-backdrop-filter: var(--glass-backdrop-filter);
-    border: 1px solid rgba(255, 255, 255, 0.21);
-
-
-}
-
-.about .about-heading {
-    text-align: center;
-    width: 85%;
-    background: rgba(0, 0, 0, 0.45);
-    border-radius: 15px 15px 0 0;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6.7px);
-    -webkit-backdrop-filter: blur(6.7px);
-    border: 1px solid rgba(255, 255, 255, 0.21);
-}
-
-.about .about-wraper {
-    border: 1px solid red;
-    height: 100vh;
-    width: 85%;
-    display: flex;
-    flex-direction: row;
-
-    background: rgba(0, 0, 0, 0.45);
-    border-radius: 0 0 15px 15px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6.7px);
-    -webkit-backdrop-filter: blur(6.7px);
-    border: 1px solid rgba(255, 255, 255, 0.21);
-
-}
-
-.about .about-wraper .col-1 {
-    flex: 50%;
-    /* border: 1px solid red; */
-    /* border-radius: 0 0 15px 15px; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 1rem;
-
-    background: rgba(0, 0, 0, 0.3);
-    border-radius: 0 0 0 15px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6.7px);
-    -webkit-backdrop-filter: blur(6.7px);
-    border: 1px solid rgba(255, 255, 255, 0.21);
-
-
-
-}
-
-
-
-.about .about-wraper .col-1 h2 {
-    font-size: 3.5rem;
-    align-self: center;
-    text-transform: uppercase;
-    color: var(--white-color);
-}
-
-.about .about-wraper .col-1 h2 span {
-    color: var(--main-color);
-}
-
-.about .about-wraper .col-1>p {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: var(--white-color);
-
-
-}
-
-/* .about .about-wraper .col-1 .col-1-chart {
-    border: 1px solid black;
-    
-
-} */
-
-
-.about .about-wraper .col-1 .col-1-chart {
-
-    margin-top: 3rem;
-}
-
-.about .about-wraper .col-1 .col-1-chart>p {
-
-    font-size: 2rem;
-    font-weight: 500;
-    color: var(--main-color);
-    line-height: 3.5rem;
-
-}
-
-.about .about-wraper .col-1 .col-1-chart>p span {
-
-    color: var(--white-color);
-
-}
-
-
-.about .about-wraper .col-2 {
-    flex: 50%;
-    /* border: 1px solid red; */
-    /* border-radius: 0 0 15px 15px; */
-    /* height: 100%; */
-    
-    display: flex;
-    flex-direction: column;
-
-    background: rgba(0, 0, 0, 0.3);
-    border-radius: 0 0 15px 0;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6.7px);
-    -webkit-backdrop-filter: blur(6.7px);
-    border: 1px solid rgba(255, 255, 255, 0.21);
-
-}
-
-.col-2-heading {
-    align-self: center;
-}
-
-.about .about-wraper .col-1 .col-1-chart span {
     color: var(--black-color);
-}
-
-
-.col-2 .skils-wraper {
-    /* border: 1px solid red; */
-    width: 100%;
-
-    padding: 1rem;
-}
-
-.skil {
-    font-size: 1.8rem;
-    margin: 1.5rem 0;
-    color: var(--white-color);
-}
-
-.col-2 .skils-wraper .skil-row {
-    /* border: 2px solid red; */
-
-    height: 1rem;
-}
-
-/* .skil-row div{
-    font-size: .9rem;
-    font-weight: bold;
-} */
-
-.html-skil {
-    height: 100%;
-    background-color: green;
-    margin-right: 20%;
-}
-
-.css-skil {
-    height: 100%;
-    background-color: green;
-    margin-right: 30%;
-}
-
-.js-skil {
-    height: 100%;
-    background-color: green;
-    margin-right: 60%;
-}
-
-.bs-skil {
-    height: 100%;
-    background-color: green;
-    margin-right: 78%;
-}
-
-.react-skil {
-    height: 100%;
-    background-color: green;
-    margin-right: 68%;
 }
 
 
@@ -606,7 +395,6 @@ header .social a:hover {
 
 }
 
- 
 @media (max-width:500px) {
     .about {
         padding: 2rem 0;
