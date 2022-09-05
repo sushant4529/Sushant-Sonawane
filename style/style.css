@@ -618,13 +618,6 @@ header .social a:hover {
     }
 }
 
-/* @media (max-width:650px) {
-    .about {
-        margin-bottom: 13rem;
-    }
-
-
-} */
 
 
 @media (max-width:450px) {
@@ -670,12 +663,7 @@ header .social a:hover {
 
 }
 
-/* @media (max-width:700px){
-    .about-wraper{
-        display: flex;
-        flex-direction: column;
-    }
-} */
+
 
 
 
