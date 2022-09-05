@@ -656,6 +656,10 @@ video{
         width: 70%;
     }
 
+    video{
+        display: none;
+    }
+
 }
 
 /* @media (max-width:700px){
