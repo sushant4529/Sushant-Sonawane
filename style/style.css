@@ -621,6 +621,7 @@ video{
 @media (max-width:270px) {
     .about {
         margin-bottom: 100rem;
+        z-index: 1;
     }
 
     
