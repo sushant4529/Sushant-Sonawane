@@ -69,7 +69,7 @@ header {
     height: 15rem;
     width: 15rem;
     border-radius: 50%;
-    background-image: url('/images/authorimg.png');
+    background-image: url('../images/authorimg.png');
     text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -595,7 +595,9 @@ header .social a:hover {
         width: 30%;
         font-size: 5rem;
     }
-
+video{
+    display: none;
+}
 
 }
 
@@ -608,6 +610,13 @@ header .social a:hover {
         flex-direction: column;
 
     }
+}
+@media (max-width:650px) {
+    .about {
+        margin-bottom: 10rem;
+    }
+
+    
 }
 
 @media (max-width:450px) {
