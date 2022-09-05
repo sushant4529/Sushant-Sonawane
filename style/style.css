@@ -55,7 +55,7 @@ header {
     text-align: center;
     justify-content: space-between;
     z-index: 1000;
-    
+
     background: rgba(0, 0, 0, 0.45);
     /*border-radius: 15px;*/
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -186,7 +186,8 @@ header .social a:hover {
     /* text-align: center; */
     font-size: 3rem;
 }
-.auto-type{
+
+.auto-type {
     text-transform: capitalize;
     font-weight: bold;
     color: var(--white-color);
@@ -198,7 +199,7 @@ header .social a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    z-index: 10;
     background: var(--glassbackground);
     /*border-radius: 15px;*/
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -288,6 +289,7 @@ header .social a:hover {
 
     margin-top: 3rem;
 }
+
 .about .about-wraper .col-1 .col-1-chart>p {
 
     font-size: 2rem;
@@ -296,7 +298,8 @@ header .social a:hover {
     line-height: 3.5rem;
 
 }
-.about .about-wraper .col-1 .col-1-chart > p span {
+
+.about .about-wraper .col-1 .col-1-chart>p span {
 
     color: var(--white-color);
 
@@ -384,7 +387,7 @@ header .social a:hover {
 
 /* services css starts */
 
-.services{
+.services {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -400,7 +403,7 @@ header .social a:hover {
 
 }
 
-.services .services-heading{
+.services .services-heading {
     text-align: center;
     width: 85%;
     background: rgba(0, 0, 0, 0.45);
@@ -411,11 +414,11 @@ header .social a:hover {
     border: 1px solid rgba(255, 255, 255, 0.21);
 }
 
-.services-wraper{
+.services-wraper {
     border: 1px solid red;
     /* height: max-content;
      */
-     height: 80%;
+    height: 80%;
     width: 85%;
     display: flex;
     flex-direction: column;
@@ -431,14 +434,14 @@ header .social a:hover {
 
 }
 
-.services .services-wraper .service{
+.services .services-wraper .service {
     border: 1px solid red;
     height: 45%;
     width: 45%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 
 
     background: rgba(255, 255, 255, 0.45);
@@ -447,10 +450,10 @@ header .social a:hover {
     backdrop-filter: blur(6.7px);
     -webkit-backdrop-filter: blur(6.7px);
     border: 1px solid rgba(255, 255, 255, 0.21);
-    
+
 }
 
-.services-wraper .service .service-logo{
+.services-wraper .service .service-logo {
     border: 1px solid green;
     height: 20%;
     width: 15%;
@@ -462,7 +465,7 @@ header .social a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 
     background: rgba(0, 0, 0, 0.1);
     border-radius: 40%;
@@ -473,21 +476,23 @@ header .social a:hover {
 }
 
 
-.services-wraper .service h2{
-     font-size: 4rem;
-     text-align: center;
+.services-wraper .service h2 {
+    font-size: 4rem;
+    text-align: center;
 }
-.services-wraper .service p{
-     font-size: 2rem;
-     text-align: center;
-     
+
+.services-wraper .service p {
+    font-size: 2rem;
+    text-align: center;
+
 }
+
 /* services css end */
 
 /* contact css start */
 
 
-.contact{
+.contact {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -502,7 +507,7 @@ header .social a:hover {
     border: 1px solid rgba(255, 255, 255, 0.21);
 }
 
-.contact .contact-heading{
+.contact .contact-heading {
     text-align: center;
     width: 85%;
     background: rgba(0, 0, 0, 0.45);
@@ -513,11 +518,11 @@ header .social a:hover {
     border: 1px solid rgba(255, 255, 255, 0.21);
 }
 
-.contact .contact-wraper{
+.contact .contact-wraper {
     border: 1px solid red;
     /* height: max-content;
      */
-     height: 80%;
+    height: 80%;
     width: 85%;
     display: flex;
     flex-direction: column;
@@ -591,13 +596,14 @@ header .social a:hover {
 
     }
 
-    .services-wraper .service .service-logo{
+    .services-wraper .service .service-logo {
         width: 30%;
         font-size: 5rem;
     }
-video{
-    display: none;
-}
+
+    video {
+        display: none;
+    }
 
 }
 
@@ -611,20 +617,22 @@ video{
 
     }
 }
+
 @media (max-width:650px) {
     .about {
         margin-bottom: 13rem;
     }
 
-    
+
 }
+
 @media (max-width:270px) {
     .about {
         margin-bottom: 100rem;
-        z-index: 2;
+
     }
 
-    
+
 }
 
 @media (max-width:450px) {
@@ -655,16 +663,16 @@ video{
         right: 2rem;
     }
 
-    .services-wraper .service .service-logo{
+    .services-wraper .service .service-logo {
         width: 50%;
         font-size: 5rem;
     }
 
-    .services .services-wraper .service{
+    .services .services-wraper .service {
         width: 70%;
     }
 
-    video{
+    video {
         display: none;
     }
 
@@ -679,7 +687,7 @@ video{
 
 
 
-footer{
+footer {
     border: 1px solid red;
     height: max-content;
     color: white;
@@ -688,7 +696,7 @@ footer{
     padding: 1rem 0;
 
     background: rgba(0, 0, 0, 0.90);
-    
+
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(6.7px);
     -webkit-backdrop-filter: blur(6.7px);
@@ -696,6 +704,6 @@ footer{
 
 }
 
-.footer-name{
+.footer-name {
     color: var(--main-color);
 }
