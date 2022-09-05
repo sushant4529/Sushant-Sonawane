@@ -199,7 +199,7 @@ header .social a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index: 10;
+    
     background: var(--glassbackground);
     /*border-radius: 15px;*/
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -626,14 +626,6 @@ header .social a:hover {
 
 }
 
-@media (max-width:270px) {
-    .about {
-        margin-bottom: 100rem;
-
-    }
-
-
-}
 
 @media (max-width:450px) {
     html {
