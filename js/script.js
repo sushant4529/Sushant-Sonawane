@@ -15,7 +15,7 @@ window.onscroll = () =>{
 // typed js code
 
 var typed = new Typed(".auto-type",{
-    strings: ["Web developer","portfolio"],
+    strings: ["Web developer","Full Dtack Developer"],
     typeSpeed:100,
     backSpeed:100,
     loop:true 
