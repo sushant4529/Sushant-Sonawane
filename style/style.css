@@ -618,6 +618,13 @@ video{
 
     
 }
+@media (max-width:279px) {
+    .about {
+        margin-bottom: 13rem;
+    }
+
+    
+}
 
 @media (max-width:450px) {
     html {
