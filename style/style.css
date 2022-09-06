@@ -193,7 +193,7 @@ header .social a:hover {
 
 .about{
     height: 100vh;
-    /* border: 1rem solid red; */
+    border: 1rem solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -262,88 +262,6 @@ header .social a:hover {
 }
 
 
-@media (max-width:992px) {
-
-    html {
-        font-size: 55%;
-
-    }
-
-    body {
-        padding: 0;
-
-    }
-
-    #menu-bars {
-        display: initial;
-    }
-
-    header {
-        left: -100rem;
-
-    }
-
-    header.active {
-        left: 0%;
-    }
-
-    header .logo {
-        font-size: 2rem;
-    }
-
-    header .navbar a {
-        font-size: 3rem;
-    }
-
-    header .social a {
-        font-size: 3rem;
-
-    }
-
-    
-
-   
-
-    
-
-}
-
-
-
-
-
-@media (max-width:450px) {
-    html {
-        font-size: 50%;
-
-    }
-
-
-    header {
-        width: 100%;
-    }
-
-    header .logo {
-        font-size: 3rem;
-    }
-
-    header .navbar a {
-        font-size: 3.5rem;
-    }
-
-    header .social a {
-        font-size: 3.5rem;
-
-    }
-
-    #menu-bars {
-        right: 2rem;
-    }
-
-   
-   
-
-}
 
 
 
