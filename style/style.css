@@ -37,6 +37,19 @@ body {
     font-weight: bolder;
 }
 
+.btn{
+    border: none;
+    height: 4rem;
+    width: 11rem;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+}
+.btn:hover{
+    font-weight: bold;
+    border: 1px solid black;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+}
 
 header {
     /* border: 1px solid red; */
@@ -123,9 +136,8 @@ header .social a:hover {
 
 
 .home {
-    /* border: 1px solid red; */
+    border: 1rem solid red;
     height: 100vh;
-
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -138,7 +150,7 @@ header .social a:hover {
 .home .home-wraper {
     border: 1px solid rgb(0, 0, 0);
     height: 35rem;
-    width: 100%;
+    width: 98%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -177,9 +189,77 @@ header .social a:hover {
 }
 
 
+/* about css start */
 
+.about{
+    height: 100vh;
+    border: 1rem solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-info,
+.about-skill{
+    border: 1px solid rgb(0, 13, 255);
+    flex: 50%;
+    width: 98%;
+}
+.about-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-info-wraper{
+    border: 1px solid green;
+    height: max-content;
+    width: 70%;
+    height: 87%;
+    border-radius: 1rem;
+    padding: 2rem;
+   
+}
+.about-info-wraper .hi{
+    font-size: 3rem;
+}
+.about-info-wraper h2{
+    font-size: 4rem;
+    text-transform: capitalize;
+}
+.about-info-wraper h2 span{
+    color: var(--main-color);
+}
+.about-info-wraper .disc{
+   text-transform: capitalize;
+    font-size: 2rem;
+}
+.about-info-wraper .dit {
+    font-size: 2rem;
+    margin-top: 1rem;
+    font-weight: bolder;
+}
+.about-info-wraper .dit span{
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: var(--black-color);
+    font-weight: 400;
+}
 
-
+.about-skill{
+    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+.about-skill-wraper{
+    border: 1px solid green;
+    height: max-content;
+    width: 70%;
+    border-radius: 1rem;
+    padding: 2rem;
+}
 
 
 @media (max-width:992px) {
