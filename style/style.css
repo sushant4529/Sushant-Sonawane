@@ -193,7 +193,7 @@ header .social a:hover {
 
 .about{
     height: 100vh;
-    border: 1rem solid red;
+    /* border: 1rem solid red; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -261,13 +261,27 @@ header .social a:hover {
     padding: 2rem;
 }
 
+/* services css  */
+
+.services{
+    height: 100vh;
+    border: 1rem solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+}
+
+.service-chart{
+    border: 1px solid rgb(0, 0, 0);
+    height: 45%;
+    width: 50%;
+}
 
 
 
-
-
-
-
+/* top btn css */
 #myBtn {
     display: none;
     position: fixed;
