@@ -338,7 +338,7 @@ header .social a:hover {
 
 
 .work {
-    border: 1rem solid red;
+    /* border: 1rem solid red; */
     height: 100vh;
     display: flex;
     flex-direction: column;
