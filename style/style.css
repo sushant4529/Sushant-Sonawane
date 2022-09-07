@@ -284,9 +284,8 @@ header .social a:hover {
 
 .service-chart{
     border: 1px solid rgb(0, 0, 0);
-    height: 45%;
-    width: 45%;
-
+    height: 35%;
+    width: 35%;
     box-shadow: var(--main-box-shadow);
 }
 
