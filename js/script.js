@@ -24,7 +24,7 @@ var typed = new Typed(".auto-type",{
 
 
 function message(){
-    alert("under development");
+    alert("Under Development");
 }
 
 
