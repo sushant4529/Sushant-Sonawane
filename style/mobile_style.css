@@ -50,7 +50,13 @@
    .work-chart img{
     width: 100%;
    }
-
+   
+   .contact{
+    height: auto;
+   }
+   .contact-wraper{
+    flex-direction: column;
+   }
 
 }
 
