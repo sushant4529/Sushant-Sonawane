@@ -40,8 +40,16 @@
         width: 70%;
     }
 
+    .work-wraper {
 
-
+        flex-direction: column;
+    }
+   .work-chart{
+    width: 80%;
+   }
+   .work-chart img{
+    width: 100%;
+   }
 
 
 }
