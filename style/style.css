@@ -442,7 +442,33 @@ input[type="text"],[type="email"],[type="number"]{
     
 }
 
+footer{
+    border: 1px solid black;
+    height: 5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-color: #000000;
+    position: relative;
+    bottom: 0;
+   
 
+}
+footer p{
+    color: white;
+}
+footer p span{
+    font-weight: bold;
+    color: var(--main-color);
+    cursor: pointer;
+}
+footer p i{
+    
+    color: red;
+}
 
 /* top btn css */
 #myBtn {
