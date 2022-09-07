@@ -15,7 +15,8 @@
     --black-color: #000000;
     --shadow-color: #aaaaaa;
     /* --heaing-color: #2b00ff; */
-
+   
+    --main-box-shadow: 1px 1px 5px 5px var(--main-color);
     
 }
 
@@ -155,6 +156,8 @@ header .social a:hover {
     flex-direction: column;
     justify-content: space-evenly;
 
+    box-shadow: var(--main-box-shadow);
+
     
 }
 
@@ -209,6 +212,8 @@ header .social a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    
 }
 .about-info-wraper{
     border: 1px solid green;
@@ -218,6 +223,7 @@ header .social a:hover {
     border-radius: 1rem;
     padding: 2rem;
    
+    box-shadow: var(--main-box-shadow);
 }
 .about-info-wraper .hi{
     font-size: 3rem;
@@ -259,13 +265,15 @@ header .social a:hover {
     width: 80%;
     border-radius: 1rem;
     padding: 2rem;
+
+    box-shadow: var(--main-box-shadow);
 }
 
 /* services css  */
 
 .services{
     height: 100vh;
-    border: 1rem solid red;
+    /* border: 1rem solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -276,7 +284,31 @@ header .social a:hover {
 .service-chart{
     border: 1px solid rgb(0, 0, 0);
     height: 45%;
-    width: 50%;
+    width: 45%;
+
+    box-shadow: var(--main-box-shadow);
+}
+
+.service-1,
+.service-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-logo{
+    /* border: 1px solid red; */
+    height: 30%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 800%;
+}
+.service-title{
+    font-size: 350%;
 }
 
 
