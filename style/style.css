@@ -157,7 +157,7 @@ header .social a:hover {
     flex-direction: column;
     justify-content: space-evenly;
 
-    box-shadow: var(--main-box-shadow);
+    /* box-shadow: var(--main-box-shadow); */
 
 
 }
@@ -227,7 +227,7 @@ header .social a:hover {
     /* border-radius: 1rem; */
     padding: 2rem;
 
-    box-shadow: var(--main-box-shadow);
+    /* box-shadow: var(--main-box-shadow); */
 }
 
 .about-info-wraper .hi {
@@ -278,7 +278,7 @@ header .social a:hover {
     font-size: 2rem;
     padding: 2rem;
 
-    box-shadow: var(--main-box-shadow);
+    /* box-shadow: var(--main-box-shadow); */
 }
 
 /* services css  */
@@ -297,7 +297,7 @@ header .social a:hover {
     border: 1px solid rgb(0, 0, 0);
     height: 35%;
     width: 35%;
-    box-shadow: var(--main-box-shadow);
+    /* box-shadow: var(--main-box-shadow); */
 }
 
 .service-1,
@@ -355,7 +355,7 @@ header .social a:hover {
     gap: 2rem;
     align-items: center;
 
-    box-shadow: var(--main-box-shadow);
+    /* box-shadow: var(--main-box-shadow); */
 }
 
 .work-chart {
@@ -368,7 +368,7 @@ header .social a:hover {
     align-items: center;
     padding: 1rem;
     gap: .5rem;
-    box-shadow: var(--main-box-shadow);
+    /* box-shadow: var(--main-box-shadow); */
 }
 
 
@@ -409,7 +409,7 @@ header .social a:hover {
     flex-direction: row;
     padding: 5px;
     gap: 5px;
-    box-shadow: var(--main-box-shadow);
+    /* box-shadow: var(--main-box-shadow); */
 }
 .form-wraper,
 .map-wraper{
