@@ -92,7 +92,32 @@
         right: 2rem;
     }
 
+    /* scrollbar style */
 
+    .about-skill-wraper{
+        flex-direction: column;
+        height: 55vh;
+        justify-content: center;
+        align-items: center;
+        row-gap: 1rem;
+        
+    }
 
+    
+    .progress-container{
+        height: 90%;
+        width: 70%;
+        
+    }
+
+    .progress-value{
+        
+        font-size: 3rem;
+       
+    }
+    .text{
+        font-size: 3rem;
+        
+    }
 
 }
