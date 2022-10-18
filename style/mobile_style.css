@@ -96,7 +96,7 @@
 
     .about-skill-wraper{
         flex-direction: column;
-        height: 55vh;
+        height: 60vh;
         justify-content: center;
         align-items: center;
         row-gap: 1rem;

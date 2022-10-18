@@ -196,7 +196,7 @@ header .social a:hover {
 /* about css start */
 
 .about {
-    height: 100vh;
+    height: 130vh;
     /* border: 1rem solid red; */
     display: flex;
     flex-direction: column;
